@@ -84,8 +84,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         List<String> permitAllEndpointList = Arrays.asList(
             AUTHENTICATION_URL,
             REFRESH_TOKEN_URL,
-            REFRESH_TOKEN_URL,
-            REFRESH_TOKEN_URL,
                 "/v2/api-docs",
                 "/configuration/**",
                 "/swagger*/**",
